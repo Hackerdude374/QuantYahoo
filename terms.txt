@@ -1,0 +1,73 @@
+# Create a .txt file with lecture notes explaining common quant terms like OHLCV and tickers
+lecture_notes = """
+Quant Finance: Key Terms Explained
+==================================
+
+1. Ticker Symbol
+----------------
+A ticker symbol is a unique series of letters assigned to a security or stock for trading purposes.
+Examples:
+- MSFT: Microsoft Corporation
+- AAPL: Apple Inc.
+- TSLA: Tesla Inc.
+
+Tickers are used in code and charts to pull specific stock data.
+
+2. OHLCV Data
+-------------
+OHLCV stands for Open, High, Low, Close, Volume — the five key metrics for any trading period.
+
+- Open:
+  The price of the first trade for the time period (e.g., day, hour, or minute).
+
+- High:
+  The highest price the stock reached during the time period.
+
+- Low:
+  The lowest price the stock reached during the time period.
+
+- Close:
+  The price of the last trade for the time period. Used most commonly in chart analysis.
+
+- Volume:
+  The total number of shares traded during the time period. High volume often indicates higher interest or volatility.
+
+Example (for MSFT on a single day):
+| Date       | Open  | High  | Low   | Close | Volume   |
+|------------|-------|-------|-------|-------|----------|
+| 2025-06-20 | 330.0 | 335.5 | 328.2 | 332.0 | 1,540,000|
+
+3. Time Intervals
+------------------
+Stock data can be recorded over different intervals depending on the use case:
+- "1d" : Daily data (used for swing/long-term trading)
+- "5m": 5-minute data (used for intraday/short-term analysis)
+- "1h": Hourly data
+
+4. Adjusted Close
+------------------
+Adjusted Close is the closing price adjusted for corporate actions like dividends, splits, and rights offerings.
+It reflects the "true" value to shareholders and is usually used in backtesting strategies.
+
+Summary Table:
+--------------
+| Term     | Description                                |
+|----------|--------------------------------------------|
+| Ticker   | Code representing a company (e.g., MSFT)   |
+| Open     | Price at the start of the interval         |
+| High     | Maximum price during the interval          |
+| Low      | Minimum price during the interval          |
+| Close    | Price at the end of the interval           |
+| Volume   | Shares traded during the interval          |
+| Adj Close| Close price adjusted for dividends/splits  |
+
+These terms are the foundation of quantitative analysis in finance. Understanding them is crucial before diving into indicators, backtesting, or algorithmic trading.
+
+"""
+
+# Save to a .txt file
+file_path = "/mnt/data/Quant_Finance_Lecture_Notes.txt"
+with open(file_path, "w") as f:
+    f.write(lecture_notes)
+
+file_path
