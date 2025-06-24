@@ -24,7 +24,7 @@ import time                                      # For timing and API sleep to m
 # 🔑 Load API Key from File
 # ==========================
 # Store your personal API key in a text file for security and reusability
-key_path = r"D:\Github Projects C\GITHUB PROJECTS DO HERE C\QuantYahoo\QuantYahoo\key.txt"
+key_path = r"D:\Github Projects C\GITHUB PROJECTS DO HERE C\QuantYahoo\QuantYahoo\Getting Data\Alpha_Vantage\key.txt"
 api_key = open(key_path, 'r').read().strip()  # Ensure we strip out newline or spaces
 
 # ==========================
