@@ -18,7 +18,8 @@ income_statement = {}
 # 🌐 Target URL: Yahoo Finance AAPL Financials Page
 # =======================================
 url = "https://finance.yahoo.com/quote/AAPL/financials?p=AAPL"
-
+# Target URL for AAPL's income statement in JSON format
+#url = "https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=incomeStatementHistory"
 # =======================================
 # ⚠️ Set custom headers to mimic a real web browser
 # =======================================
