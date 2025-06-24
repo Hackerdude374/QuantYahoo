@@ -1,0 +1,6 @@
+datetime
+yfinance
+pandas
+alpha_vantage
+bs4
+requests
