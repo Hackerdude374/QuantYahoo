@@ -1,0 +1,98 @@
+course_summary_txt = """
+QuantYahoo Project - Course Summary & Technical Scope
+====================================================
+
+📚 Course Title:
+Build Fully Automated Trading System & Implement Quantitative Strategies using Python
+
+🎓 Instructor:
+Mayank Rasu — Quant Researcher, Risk Management Expert, and Educator
+
+📅 Last Updated:
+February 2025 | Course Length: ~22.5 hours | Platform: Udemy
+
+====================================================================
+📌 What the Course Covers (High-Level Overview):
+====================================================================
+
+✔️ Quantitative & algorithmic trading using Python
+✔️ Automated data gathering from Yahoo Finance, Alpha Vantage, FXCM, and OANDA
+✔️ Data extraction via APIs and web scraping (including JSON + HTML)
+✔️ Technical indicator implementation (MACD, RSI, Bollinger Bands, etc.)
+✔️ Performance measurement: Sharpe, Sortino, Drawdown, Calmar, etc.
+✔️ Strategy design, backtesting, and signal generation
+✔️ Fundamental analysis + value investing (e.g., Magic Formula, Piotroski F-Score)
+✔️ Sentiment analysis (using VADER/TextBlob/ML models)
+✔️ Automation and deployment on AWS EC2 using Crontab + Screen
+✔️ Building a live trading system using FXCM and OANDA APIs
+
+====================================================================
+🔍 What You’ll Learn (Technical Objectives):
+====================================================================
+
+1. **Data Gathering**:
+   - Download daily/intraday data using `yfinance`, `alpha_vantage`, `pandas_datareader`, `yahoofinancials`
+   - Scrape data using `requests` and `BeautifulSoup`
+   - Parse JSON objects embedded in script tags on modern Yahoo Finance
+
+2. **Technical Analysis**:
+   - Rolling windows, moving averages, and crossovers (SMA/EMA)
+   - MACD, ATR, RSI, Bollinger Bands, Renko charts, ADX
+   - Use `TA-Lib` for complex indicators
+
+3. **Fundamental Analysis**:
+   - Parse financial statements: Income, Balance Sheet, Cash Flow
+   - Build valuation screeners: Magic Formula & Piotroski Score
+   - Analyze earnings, margins, debt levels programmatically
+
+4. **Strategy Backtesting**:
+   - Portfolio rebalancing logic
+   - Resistance breakout logic
+   - Renko + OBV or MACD combined strategies
+
+5. **Performance Metrics**:
+   - CAGR, Sharpe Ratio, Sortino Ratio
+   - Drawdown, Volatility, Calmar Ratio
+
+6. **Sentiment Analysis**:
+   - Rule-based analysis using `VADER`, `TextBlob`
+   - ML-based analysis: TF-IDF + Logistic Regression
+   - Evaluate news and tweets for trading signals
+
+7. **Trading APIs & Automation**:
+   - FXCM + OANDA Python API integration for live trading
+   - Schedule trading scripts on AWS EC2 using `crontab`
+   - Monitor trading logs and maintain screen sessions
+
+====================================================================
+📦 Key Tools & Libraries:
+====================================================================
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `yfinance`, `alpha_vantage`, `pandas_datareader`, `yahoofinancials`
+- `BeautifulSoup`, `requests`, `re`, `json`
+- `TA-Lib`, `sklearn`, `vaderSentiment`, `textblob`
+- `MetaTrader5`, `FXCMPY`, `oandapyV20`
+- `Selenium`, `AWS EC2`, `Crontab`
+
+====================================================================
+📈 Target Audience:
+====================================================================
+- Python programmers interested in financial markets
+- Traders seeking automation and signal-based decision making
+- Data scientists working with financial datasets
+- Aspiring quants and fintech professionals
+
+====================================================================
+🛠 Project Outcome - What You’ll Build:
+====================================================================
+- An end-to-end quant research platform in Python
+- Web + API-based data extraction system
+- Signal generation engine using TA + fundamentals
+- Fully automated backtesting + performance evaluation framework
+- Automated trade executor (via API) running on the cloud
+
+====================================================================
+
+"""
+
+
