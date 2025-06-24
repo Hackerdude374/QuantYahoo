@@ -4,3 +4,5 @@ pandas
 alpha_vantage
 bs4
 requests
+yahooquery 
+yahoofinance
